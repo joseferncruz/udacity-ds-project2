@@ -71,5 +71,5 @@ Acknowledgements are mostly to the effort of the NYC city hall to provide the da
 
 
 ---
-_**Disclaimer**_
+<h4 id="disclaimer">Disclaimer</h4>
  The author is not affiliated with any of the entities mentioned nor received any kind of compensation. The information contained in this work is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness or timeliness.
