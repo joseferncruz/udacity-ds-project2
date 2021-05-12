@@ -5,8 +5,6 @@ gunicorn==20.1.0
 itsdangerous
 Jinja2
 MarkupSafe==1.1.1
-mkl-random
-mkl-service==2.3.0
 numpy
 pandas
 plotly
