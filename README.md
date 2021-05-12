@@ -11,7 +11,7 @@ In this project I [__created and deployed a webapp dashboard__](https://noisy-ny
 
 <img src="dashboard.png"> </img>
 
-If you have any question, just send me a quick message via [LinkedIn](https://www.linkedin.com/in/josecruz-phd/). Enjoy!
+If you have any questions, just send me a quick message via [LinkedIn](https://www.linkedin.com/in/josecruz-phd/). Enjoy!
 
 ## Table of Contents
 
@@ -25,11 +25,11 @@ If you have any question, just send me a quick message via [LinkedIn](https://ww
 
 ## Introduction
 
-In my [first project](https://github.com/joseferncruz/udacity-ds-project1), I used a public dataset to explore how the characteristics of **New York City** outdoor dinning offer during the pandemic. **In this project**, I looked at another angle of **New York City**: The noise and noise complaints submitted to the city.
+In my [first project](https://github.com/joseferncruz/udacity-ds-project1), I used a public dataset to explore how the characteristics of **New York City** outdoor dining offer during the pandemic. **In this project**, I looked at another angle of **New York City**: The noise and noise complaints submitted to the city.
 
 It should not come as a surprise that NYC is very (very) noisy. As [NYC officials](https://www1.nyc.gov/site/doh/health/health-topics/noise.page) describe the problem: _'More than 30 million people in the U.S. have hearing loss due to exposure to loud noise. In **New York City**, nearly **one in six adults** report ringing in their ears or hearing loss.'_
 
-A dataset that could help visualize the problem is the noise complaints dataset provide by NYC under the [Open Data Initiative](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data). More precisely, I wondered how the complaints changed in the last year, when many New Yorkers where force to stay home during the pandemic.
+A dataset that could help visualize the problem is the noise complaints dataset provide by NYC under the [Open Data Initiative](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data). More precisely, I wondered how the complaints changed in the last year, when many New Yorkers were forced to stay home during the pandemic.
 
 The [__four visualizations__](https://noisy-nyc-app.herokuapp.com) that I created aim to answer the following __four questions__:
 
