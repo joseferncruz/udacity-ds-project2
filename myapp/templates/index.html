@@ -4,11 +4,11 @@
 
 <head>
 
-<title>Noise Complaints in NYC</title>
+<title>Noisy NYC Dashboard</title>
 
 <!--import script files needed from plotly and bootstrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -17,12 +17,12 @@
 
 <body>
 
-<!--navbar links-->     
+<!--navbar links-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
    <a class="navbar-brand" href="#">Sneak peeking the noise complaints in NYC</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" 
-  data-target="#navbarTogglerDemo02" 
-  aria-controls="navbarTogglerDemo02" aria-expanded="false" 
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+  data-target="#navbarTogglerDemo02"
+  aria-controls="navbarTogglerDemo02" aria-expanded="false"
   aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,10 +37,10 @@
 </nav>
 
 
-<!--middle section-->       
+<!--middle section-->
 <div class="row">
 
-    <!--social media buttons column-->      
+    <!--social media buttons column-->
     <div class="col-1 border-right">
         <div id="follow-me" class="mt-3">
             <a href="https://www.linkedin.com/in/josecruz-phd/">
@@ -49,28 +49,28 @@
             <a href="https://github.com/joseferncruz">
                 <img src="/static/img/githublogo.png" alt="github" class="img-fluid ml-2 ">
             </a>
-          
+
             <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data">
               <img src="/static/img/nyc-open-data-logo.png" alt='nyc-open-data' class="img-fluid ml-2">
             </a>
         </div>
     </div>
 
-    <!--visualizations column-->        
+    <!--visualizations column-->
     <div class="col-11">
 
-        <!--chart descriptions-->       
+        <!--chart descriptions-->
         <div id="middle-info" class="mt-3">
 
             <h2 id="tag-line">How did the number of noise complaints in NYC change after the March 2020 lockdown?</h2>
-            <h5 id="tag-line" class="text-muted"> Analysis of complaints submitted through 311 from January 2019 through April 30th 2021 </h5>
-            
+            <h5 id="tag-line" class="text-muted"> Analysis of complaints submitted through 311 from January 2019 through April 2021 </h5>
+
         </div>
-        
-        <!--charts-->       
+
+        <!--charts-->
         <div id="charts" class="container mt-3 text-center">
-                    
-            <!--top two charts-->       
+
+            <!--top two charts-->
             <div class="row">
                 <div class="col-6">
                     <div id="{{ids[0]}}"></div>
@@ -80,9 +80,9 @@
                 </div>
             </div>
 
-            <!--bottom two charts-->        
+            <!--bottom two charts-->
             <div class="row mb-6">
-                <div class="col-6"> 
+                <div class="col-6">
                     <div id="chart3">
                         <div id="{{ids[2]}}"></div>
                     </div>
@@ -93,12 +93,12 @@
                     </div>
                 <div>
             </div>
-        
+
         </div>
     <div>
 </div>
 
-<!--footer section-->               
+<!--footer section-->
 <div id="footer" class="container"></div>
 
 </body>
@@ -119,7 +119,7 @@
     </script>
 
   <p class="font-weight-bold">José Oliveira da Cruz, PhD | 2021</p>
-  
+
 </footer>
 
 
